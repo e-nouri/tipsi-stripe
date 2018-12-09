@@ -4,6 +4,7 @@
 [![build status](https://img.shields.io/travis/tipsi/tipsi-stripe/master.svg?style=flat-square)](https://travis-ci.org/tipsi/tipsi-stripe)
 
 React Native Stripe binding for iOS/Android platforms
+I forked the original one because the source for 3DSecure fails if it is pending, In Europe we mostly have 3DSecure CC,Here i am changing the behaviour instead of failing, resolve the promise with the status (pending).
 
 ## Changelog
 [[6.0.1] - 2018-10-28](/CHANGELOG.md#601---2018-10-28)
